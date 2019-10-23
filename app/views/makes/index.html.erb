@@ -10,6 +10,7 @@
 </head>
 
 <p id="notice"><%= notice %></p>
+<p style="color:red;">Please click on the following to log out: <%= link_to 'Log out', destroy_user_session_path, method: :delete %></p>
 
 <%= form_tag(search_makes_url, method: "get") do %>
   <%= label_tag(:search, "Search for: (Can search for 'Name' or 'Country')") %>
