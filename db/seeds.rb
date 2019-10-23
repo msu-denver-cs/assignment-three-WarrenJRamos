@@ -1,3 +1,11 @@
+Make.create!([
+    {name: "Toyota", country: "Japan"},
+    {name: "Volkswagen", country: "Germany"},
+    {name: "Kia", country: "South Korea"},
+    {name: "Ford", country: "USA"},
+    {name: "Honda", country: "Japan"},
+    {name: "Maserati", country: "Italian"}
+])
 Car.create!([
   {model_title: "Rav4", vin_number: 1000, make_id: 1},
   {model_title: "4Runner", vin_number: 1001, make_id: 1},
@@ -6,14 +14,6 @@ Car.create!([
   {model_title: "Sorento", vin_number: 1004, make_id: 6},
   {model_title: "Civic", vin_number: 1070, make_id: 5},
   {model_title: "Sorento", vin_number: 1050, make_id: 3}
-])
-Make.create!([
-  {name: "Toyota", country: "Japan"},
-  {name: "Volkswagen", country: "Germany"},
-  {name: "Kia", country: "South Korea"},
-  {name: "Ford", country: "USA"},
-  {name: "Honda", country: "Japan"},
-  {name: "Maserati", country: "Italian"}
 ])
 Part.create!([
   {part_name: "AMAZING Tires"},
